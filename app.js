@@ -6,25 +6,25 @@ let hr = 0;
 let interval;
 
 function start() {
-    if (!timer) { // Prevent multiple intervals
+    if (!timer) { 
         timer = true;
-        interval = setInterval(myFun, 10); // Update every 10ms
+        interval = setInterval(myFun, 10);
     }
 }
 
 function stop() {
     timer = false;
-    clearInterval(interval); // Stop the interval
+    clearInterval(interval); 
 }
 
 function restart() {
     timer = false;
-    clearInterval(interval); // Clear any running intervals
+    clearInterval(interval); 
     milli = 0;
     sec = 0;
     min = 0;
     hr = 0;
-    updateDisplay(); // Reset the display
+    updateDisplay(); 
 }
 
 function myFun() {
