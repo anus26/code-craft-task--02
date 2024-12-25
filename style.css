@@ -1,0 +1,33 @@
+.stop{
+     text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+button{
+    background-color: rgba(0, 0, 255, 0.699);
+    margin: 30px;
+    font-size: large;
+    color: white;
+    border: 1px solid pink;
+    border-radius: 5px;
+    border: none;
+
+}
+button:hover{
+ background-color: green;
+ color: white;
+ cursor: pointer;
+ transform: scale(1.1);
+ transition: all 0.3s ease;
+}
